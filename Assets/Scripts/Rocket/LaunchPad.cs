@@ -8,9 +8,9 @@ public class LaunchPad : MonoBehaviour
     [SerializeField] private float launchVelocity;
     [SerializeField] private float launchCooldown;
     
-    [SerializeField] private Button launchButton;
+    [SerializeField] public Button launchButton;
 
-    private bool _canLaunch; 
+    public bool _canLaunch; 
     private float _launchTimer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +24,7 @@ public class LaunchPad : MonoBehaviour
 
     private void Update()
     {
-        if (_launchTimer <= 0)
+        /*if (_launchTimer <= 0)
         {
             _canLaunch = true;
             launchButton.interactable = true;
@@ -32,6 +32,7 @@ public class LaunchPad : MonoBehaviour
         }
         
         _launchTimer -= Time.deltaTime;
+        */
     }
 
     public void Launch()

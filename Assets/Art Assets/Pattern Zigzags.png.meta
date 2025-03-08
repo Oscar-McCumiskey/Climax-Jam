@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pattern Zigzags_0: -3801187403506676223
+      Pattern Zigzags_1: 2622303194844615098
+      Pattern Zigzags_10: -1078815070560675079
+      Pattern Zigzags_11: -6041451873162708333
+      Pattern Zigzags_12: -3115714183786624716
+      Pattern Zigzags_2: 7516466579598993014
+      Pattern Zigzags_3: 1949617636936389073
+      Pattern Zigzags_4: -3544168276465067713
+      Pattern Zigzags_5: -4437709254871535708
+      Pattern Zigzags_6: 6187458470374871957
+      Pattern Zigzags_7: 5709984503501251792
+      Pattern Zigzags_8: 1132251252600410365
+      Pattern Zigzags_9: -6309246649181820389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

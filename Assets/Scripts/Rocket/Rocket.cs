@@ -4,11 +4,14 @@ using UnityEngine;
 public class Rocket : MonoBehaviour
 {
     private Rigidbody2D _rb2d;
+    [SerializeField] LaunchPad launchPad;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _rb2d = GetComponent<Rigidbody2D>();
+        
+        launchPad = GameObject.FindGameObjectWithTag("LaunchPad").GetComponent<LaunchPad>();
         
         Debug.Log(_rb2d.linearVelocity);
     }
@@ -42,6 +45,26 @@ public class Rocket : MonoBehaviour
         if (other.gameObject.CompareTag("SpaceStation"))
         {
             Destroy(gameObject);
+            launchPad._canLaunch = true;
+            launchPad.launchButton.interactable = true;
+            GameManager.Instance.isLaunching = false;
+            HandleLevelWin();
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstical"))
+        {
+            Destroy(gameObject);
+            launchPad._canLaunch = true;
+            launchPad.launchButton.interactable = true;
+            GameManager.Instance.isLaunching = false;
+        }
+    }
+
+    private void HandleLevelWin()
+    {
+        Debug.Log("You Win!");
     }
 }

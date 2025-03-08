@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 4171989931845608726}
   - component: {fileID: 7328172664239834493}
   - component: {fileID: 5955494432338821761}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GravField
   m_TagString: Gravity
   m_Icon: {fileID: 0}

@@ -109,10 +109,10 @@ TextureImporter:
       name: Pattern Hexagons_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 631
-        width: 91
-        height: 83
+        x: 0
+        y: 0
+        width: 756
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,55 +127,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Pattern Hexagons_1
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 604
-        width: 200
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c09fb01857c552a0800000000000000
-      internalID: -6749269285492780861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pattern Hexagons_2
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 0
-        width: 695
-        height: 617
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdb401d95183a0880800000000000000
-      internalID: -8644034869303686181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 50d46ab3de9d09d4ea1231c24e84c69c
     internalID: 0
     vertices: []
     indices: 

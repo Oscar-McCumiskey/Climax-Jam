@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1293013688787552137}
   - component: {fileID: 7649075744053331645}
-  - component: {fileID: 4590062924937827866}
+  - component: {fileID: 5806328665077542260}
   m_Layer: 0
   m_Name: PlanetB
   m_TagString: Untagged
@@ -118,6 +118,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 1037815709329625007}
   - {fileID: 5775718170984313668}
   - {fileID: 6844320464251690306}
   m_Father: {fileID: 0}
@@ -468,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 6870405550779308404}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:

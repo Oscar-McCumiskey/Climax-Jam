@@ -479,6 +479,7 @@ GameObject:
   - component: {fileID: 5775718170984313668}
   - component: {fileID: 4171989931845608726}
   - component: {fileID: 7328172664239834493}
+  - component: {fileID: 3177028085814271189}
   m_Layer: 0
   m_Name: GravField
   m_TagString: Gravity
@@ -551,3 +552,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: 3
+--- !u!114 &3177028085814271189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870405550779308404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aafab3b57c6aec42a230490833044e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 6422326215048801869}

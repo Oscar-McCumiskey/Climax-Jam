@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 4171989931845608726}
   - component: {fileID: 7328172664239834493}
   - component: {fileID: 2782047782503025299}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GravField
   m_TagString: Gravity
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

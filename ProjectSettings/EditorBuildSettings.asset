@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: eed30f6749ec3004aa5233eb919a625a
   - enabled: 1
+    path: Assets/Scenes/GameplayTest.unity
+    guid: 4e634f6364b2b994e81e575f0089ca6d
+  - enabled: 1
     path: Assets/Scenes/PhysicsTest.unity
     guid: e5e0864ed99176646b66f55eeb2d736f
   - enabled: 0

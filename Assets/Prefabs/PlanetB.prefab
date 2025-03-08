@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 7649075744053331645}
   - component: {fileID: 4590062924937827866}
   - component: {fileID: 1399324709597952739}
+  - component: {fileID: 1423395273686886415}
   m_Layer: 0
   m_Name: PlanetB
   m_TagString: Untagged
@@ -192,6 +193,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteTransform: {fileID: 6844320464251690306}
   rotationSpeedDegPerSec: 5
+--- !u!114 &1423395273686886415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466882734336640644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b57a01b4263c0f40a7d2f976e9a4074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3522572783578853068
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,7 +456,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -2071148402035298134, guid: b198b2e860d3ebd4d9223a57bfdaf465, type: 3}
   m_Color: {r: 0.39811313, g: 0.43386182, b: 1, a: 1}
   m_FlipX: 0

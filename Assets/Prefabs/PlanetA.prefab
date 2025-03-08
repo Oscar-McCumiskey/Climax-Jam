@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 7649075744053331645}
   - component: {fileID: 1518004169457322313}
   - component: {fileID: 570198050082889711}
+  - component: {fileID: 3040921656342118982}
   m_Layer: 0
   m_Name: PlanetA
   m_TagString: Untagged
@@ -192,6 +193,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteTransform: {fileID: 485995793445945184}
   rotationSpeedDegPerSec: -10
+--- !u!114 &3040921656342118982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466882734336640644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b57a01b4263c0f40a7d2f976e9a4074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3798770443119497081
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +280,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 25
   m_Sprite: {fileID: -7486823253795439457, guid: 8979bd1d0659091448d6efee70ca10a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -354,7 +367,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 4078581853036905470, guid: b831b10ffa197154eb10e7dcf4928c25, type: 3}
   m_Color: {r: 0.5863675, g: 1, b: 0.39811313, a: 1}
   m_FlipX: 0

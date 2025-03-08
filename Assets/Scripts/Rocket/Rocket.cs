@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
@@ -23,6 +24,11 @@ public class Rocket : MonoBehaviour
         transform.rotation = Quaternion.identity;
         float rotation = Vector2.SignedAngle(Vector2.up, _rb2d.linearVelocity);
         transform.Rotate(0, 0, rotation);
+
+        if (Input.GetKeyDown(KeyCode.R) && GameManager.Instance.isLaunching)
+        {
+            SelfDestruct();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -63,8 +69,16 @@ public class Rocket : MonoBehaviour
         }
     }
 
-    private void HandleLevelWin()
+    public void HandleLevelWin()
     {
-        Debug.Log("You Win!");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void SelfDestruct()
+    {
+        Destroy(gameObject);
+        launchPad._canLaunch = true;
+        launchPad.launchButton.interactable = true;
+        GameManager.Instance.isLaunching = false;
     }
 }

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pattern Chaos Lines_0: -5414324515630206239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

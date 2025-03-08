@@ -4,7 +4,7 @@ using UnityEngine;
 public class DragDrop : MonoBehaviour
 {
     private bool _dragging = false;
-    private Vector2 _offsetVector;
+    private Vector3 _offsetVector;
     private Camera _camera;
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,10 +17,11 @@ public class DragDrop : MonoBehaviour
 // Update is called once per frame
     void Update()
     {
-        if (_dragging && _camera)
+        if (_dragging && _camera && !GameManager.Instance.isLaunching)
         {
-            Vector2 newPos = _camera.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 newPos = _camera.ScreenToWorldPoint(Input.mousePosition);
             newPos += _offsetVector;
+            newPos.z = 0;
         
             // set new position
             transform.position = newPos;
@@ -30,7 +31,7 @@ public class DragDrop : MonoBehaviour
     private void OnMouseDown()
     {
         _dragging = true;
-        if (Camera.main != null) _offsetVector = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        _offsetVector = transform.position - _camera.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void OnMouseUp()

@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 1293013688787552137}
   - component: {fileID: 4546360494325493128}
   - component: {fileID: 7649075744053331645}
+  - component: {fileID: 5806328665077542260}
   m_Layer: 0
   m_Name: PlanetB
   m_TagString: Untagged
@@ -212,6 +213,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &5806328665077542260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466882734336640644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b57a01b4263c0f40a7d2f976e9a4074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6870405550779308404
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +252,7 @@ Transform:
   m_GameObject: {fileID: 6870405550779308404}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:

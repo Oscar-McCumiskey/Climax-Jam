@@ -18,6 +18,8 @@ public class LaunchPad : MonoBehaviour
     {
         _canLaunch = true;
         _launchTimer = launchCooldown;
+        
+        GameManager.Instance.isLaunching = false;
     }
 
     private void Update()
@@ -26,6 +28,7 @@ public class LaunchPad : MonoBehaviour
         {
             _canLaunch = true;
             launchButton.interactable = true;
+            GameManager.Instance.isLaunching = false;
         }
         
         _launchTimer -= Time.deltaTime;
@@ -43,6 +46,7 @@ public class LaunchPad : MonoBehaviour
             _canLaunch = false;
             _launchTimer = launchCooldown;
             launchButton.interactable = false;
+            GameManager.Instance.isLaunching = true;
         }
     }
 }

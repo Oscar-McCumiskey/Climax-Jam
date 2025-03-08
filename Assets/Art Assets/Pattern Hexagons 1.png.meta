@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pattern Hexagons 1_0: 5290787149530298934
+      Pattern Hexagons 1_1: -9203012250521393996
+      Pattern Hexagons 1_2: 1367585668918873202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

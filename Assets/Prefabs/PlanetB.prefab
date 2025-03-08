@@ -97,9 +97,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1293013688787552137}
   - component: {fileID: 7649075744053331645}
+  - component: {fileID: 6966561347419163275}
   - component: {fileID: 4590062924937827866}
   - component: {fileID: 1399324709597952739}
-  - component: {fileID: 1423395273686886415}
+  - component: {fileID: 658721070924629702}
   m_Layer: 0
   m_Name: PlanetB
   m_TagString: Obstical
@@ -160,6 +161,33 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!50 &6966561347419163275
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466882734336640644}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!114 &4590062924937827866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteTransform: {fileID: 6844320464251690306}
   rotationSpeedDegPerSec: 5
---- !u!114 &1423395273686886415
+--- !u!114 &658721070924629702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,7 +233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3466882734336640644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b57a01b4263c0f40a7d2f976e9a4074, type: 3}
+  m_Script: {fileID: 11500000, guid: 7060cf4635167d248b87bea525ffa45d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3522572783578853068
@@ -483,7 +511,7 @@ GameObject:
   - component: {fileID: 4171989931845608726}
   - component: {fileID: 7328172664239834493}
   - component: {fileID: 5955494432338821761}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GravField
   m_TagString: Gravity
   m_Icon: {fileID: 0}
@@ -554,7 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7213f338c8c734cb02c64bb8db6be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 4
+  gravity: 7
   gravField: {fileID: 3833294494771438833}
   weakColour: {r: 0, g: 1, b: 0, a: 0}
   strongColour: {r: 0.63529414, g: 0, b: 1, a: 0}

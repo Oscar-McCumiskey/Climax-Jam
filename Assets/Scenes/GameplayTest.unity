@@ -167,13 +167,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3344725512734856217, guid: d3798f548b5e7bf4ca5821798b7f95cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3466882734336640644, guid: d3798f548b5e7bf4ca5821798b7f95cd, type: 3}
       propertyPath: m_Name
       value: PlanetB
-      objectReference: {fileID: 0}
-    - target: {fileID: 7953082480434932180, guid: d3798f548b5e7bf4ca5821798b7f95cd, type: 3}
-      propertyPath: rotationSpeedDegPerSec
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -453,6 +453,14 @@ PrefabInstance:
     - target: {fileID: 3466882734336640644, guid: f1b3a6b68cf582b4481b8a3c68300bc3, type: 3}
       propertyPath: m_Name
       value: PlanetA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852058856920765899, guid: f1b3a6b68cf582b4481b8a3c68300bc3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208231517667948742, guid: f1b3a6b68cf582b4481b8a3c68300bc3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

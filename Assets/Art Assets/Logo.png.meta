@@ -145,12 +145,12 @@ TextureImporter:
       name: Logo_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 129
-        width: 1584
-        height: 732
+        x: 209
+        y: 700
+        width: 1582
+        height: 756
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: Logo_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 46
-        width: 68
+        x: 205
+        y: 621
+        width: 70
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: Logo_2
       rect:
         serializedVersion: 2
-        x: 93
-        y: 1
-        width: 99
+        x: 299
+        y: 576
+        width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: Logo_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 1
+        x: 410
+        y: 576
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: Logo_4
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1
+        x: 520
+        y: 576
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: Logo_5
       rect:
         serializedVersion: 2
-        x: 430
-        y: 1
+        x: 636
+        y: 576
         width: 91
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Logo_6
       rect:
         serializedVersion: 2
-        x: 534
-        y: 1
-        width: 91
+        x: 741
+        y: 576
+        width: 90
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Logo_7
       rect:
         serializedVersion: 2
-        x: 701
-        y: 0
+        x: 896
+        y: 575
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: Logo_8
       rect:
         serializedVersion: 2
-        x: 813
-        y: 0
+        x: 1008
+        y: 575
         width: 104
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: Logo_9
       rect:
         serializedVersion: 2
-        x: 924
-        y: 0
-        width: 108
-        height: 101
+        x: 1120
+        y: 574
+        width: 107
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: Logo_10
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 0
-        width: 100
+        x: 1241
+        y: 575
+        width: 99
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: Logo_11
       rect:
         serializedVersion: 2
-        x: 1160
-        y: 0
-        width: 105
+        x: 1356
+        y: 575
+        width: 104
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: Logo_12
       rect:
         serializedVersion: 2
-        x: 1273
-        y: 0
+        x: 1468
+        y: 575
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: Logo_13
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 0
+        x: 1586
+        y: 574
         width: 115
-        height: 101
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: Logo_14
       rect:
         serializedVersion: 2
-        x: 1520
-        y: 46
-        width: 68
+        x: 1725
+        y: 621
+        width: 70
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,7 +475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 74888c9e0829ba94485fdb9712feee64
     internalID: 0
     vertices: []
     indices: 

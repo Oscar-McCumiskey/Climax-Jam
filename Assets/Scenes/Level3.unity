@@ -283,9 +283,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet1
       objectReference: {fileID: 0}
-    - target: {fileID: 7328172664239834493, guid: d3798f548b5e7bf4ca5821798b7f95cd, type: 3}
-      propertyPath: gravity
-      value: 7
+    - target: {fileID: 6966561347419163275, guid: d3798f548b5e7bf4ca5821798b7f95cd, type: 3}
+      propertyPath: m_BodyType
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1500,9 +1500,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet2
       objectReference: {fileID: 0}
-    - target: {fileID: 7328172664239834493, guid: f1b3a6b68cf582b4481b8a3c68300bc3, type: 3}
-      propertyPath: gravity
-      value: 4
+    - target: {fileID: 7026140342392212930, guid: f1b3a6b68cf582b4481b8a3c68300bc3, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

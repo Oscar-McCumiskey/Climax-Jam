@@ -552,6 +552,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: 4
+  gravField: {fileID: 3833294494771438833}
+  weakColour: {r: 0, g: 1, b: 0, a: 0}
+  strongColour: {r: 0.63529414, g: 0, b: 1, a: 0}
 --- !u!114 &5955494432338821761
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8845461853959533723}
   - component: {fileID: 541758528327499101}
-  - component: {fileID: 8979648950273528031}
   m_Layer: 0
   m_Name: SoundMixerManager
   m_TagString: Untagged
@@ -46,15 +45,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 7d020332f43d02b4684fecaba93ec2f6, type: 2}
---- !u!114 &8979648950273528031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6973564169548115218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1111ed1899a7c8544845a17c5dd5bb36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

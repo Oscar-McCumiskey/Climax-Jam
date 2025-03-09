@@ -775,6 +775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1455,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: -5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1598,6 +1606,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1868,6 +1880,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2555,6 +2571,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3702,6 +3722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3934,6 +3958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: -3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4150,6 +4178,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4539,6 +4571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4599,6 +4635,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4754,6 +4794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidCluster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: -9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4814,6 +4858,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5167,6 +5215,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5741,6 +5793,10 @@ PrefabInstance:
     - target: {fileID: 1969415901419890892, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
       propertyPath: m_Name
       value: AsteroidCluster (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171931278528944710, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+      propertyPath: rotationSpeedDegPerSec
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

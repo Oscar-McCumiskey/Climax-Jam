@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2389230563908609427}
   - component: {fileID: 7231781131956251603}
-  - component: {fileID: -2060500676997056454}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -56,15 +55,3 @@ MonoBehaviour:
   - soundName: 3
     clip: {fileID: 8300000, guid: 199684fe94b000647bb1761ef4500cc7, type: 3}
   pitchModifier: 1
---- !u!114 &-2060500676997056454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025775513403823426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1111ed1899a7c8544845a17c5dd5bb36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

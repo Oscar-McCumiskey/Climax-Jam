@@ -1,9 +1,21 @@
+using System;
 using UnityEngine;
 using UnityEngine.Audio;
 
 public class SoundMixerManager : MonoBehaviour
 {
+    public static SoundMixerManager Instance;
+    
     [SerializeField] private AudioMixer audioMixer;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(Instance);
+        }
+    }
 
     public void SetMasterVolume(float volume)
     {

@@ -9,6 +9,8 @@ TagManager:
   - SpaceStation
   - Obstical
   - LaunchPad
+  - Wormhole
+  - Trail
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,7 @@ public class Rocket : MonoBehaviour
     private Rigidbody2D _rb2d;
     [SerializeField] LaunchPad launchPad;
     [SerializeField] GameObject rocketTrail;
+    [SerializeField] DeathCounter deathCounter;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,8 @@ public class Rocket : MonoBehaviour
         // Make and set rocket trail
         GameObject trail = Instantiate(rocketTrail, transform.position, Quaternion.identity);
         trail.GetComponent<RocketTrail>().SetRocketTransform(transform);
+
+        deathCounter = GameObject.FindGameObjectWithTag("Controller").GetComponent<DeathCounter>();
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class Rocket : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && GameManager.Instance.isLaunching)
         {
             SelfDestruct();
+            deathCounter.UpdateDeaths();
         }
     }
 
@@ -80,6 +84,11 @@ public class Rocket : MonoBehaviour
             launchPad._canLaunch = true;
             launchPad.launchButton.interactable = true;
             GameManager.Instance.isLaunching = false;
+
+            if (deathCounter != null)
+            {
+                deathCounter.UpdateDeaths();
+            }
         }
     }
 

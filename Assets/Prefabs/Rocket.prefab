@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchPad: {fileID: 0}
+  rocketTrail: {fileID: 6755952269908075472, guid: 111fd4be1a5c7334689035c9f4aa98eb, type: 3}
 --- !u!61 &7352696850290288099
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class Rocket : MonoBehaviour
 {
     private Rigidbody2D _rb2d;
     [SerializeField] LaunchPad launchPad;
+    [SerializeField] GameObject rocketTrail;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,7 +15,9 @@ public class Rocket : MonoBehaviour
         
         launchPad = GameObject.FindGameObjectWithTag("LaunchPad").GetComponent<LaunchPad>();
         
-        Debug.Log(_rb2d.linearVelocity);
+        // Make and set rocket trail
+        GameObject trail = Instantiate(rocketTrail, transform.position, Quaternion.identity);
+        trail.GetComponent<RocketTrail>().SetRocketTransform(transform);
     }
 
     // Update is called once per frame

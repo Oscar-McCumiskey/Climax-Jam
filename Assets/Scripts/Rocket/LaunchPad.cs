@@ -41,6 +41,9 @@ public class LaunchPad : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
 
+            // remove last trail
+            Destroy(GameObject.FindGameObjectWithTag("Trail"));
+            
             GameObject rocket = Instantiate(rocketPrefab, transform.position, transform.rotation);
             rocket.GetComponent<Rigidbody2D>().linearVelocity = transform.up * launchVelocity;
 

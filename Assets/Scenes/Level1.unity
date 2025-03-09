@@ -525,7 +525,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3254156177768045298, guid: 45459ddccce4e074c95b7ffd9919eb1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -951,6 +952,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42a5f5399688ca34fa6953ab4de254ae, type: 3}
+--- !u!1 &1847823726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7672471251386146535, guid: e71525efed9e87440a0781afc941f713, type: 3}
+  m_PrefabInstance: {fileID: 2125844010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1853580285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1142,6 +1148,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -493
       objectReference: {fileID: 0}
+    - target: {fileID: 915084191459165833, guid: e71525efed9e87440a0781afc941f713, type: 3}
+      propertyPath: menuPanel
+      value: 
+      objectReference: {fileID: 1847823726}
     - target: {fileID: 2773541955310456363, guid: e71525efed9e87440a0781afc941f713, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1278,7 +1288,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelCanvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7672471251386146535, guid: e71525efed9e87440a0781afc941f713, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 915084191459165833, guid: e71525efed9e87440a0781afc941f713, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

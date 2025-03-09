@@ -56,6 +56,11 @@ public class Rocket : MonoBehaviour
             GameManager.Instance.isLaunching = false;
             HandleLevelWin();
         }
+        
+        if (other.gameObject.CompareTag("Wormhole"))
+        {
+            transform.position = other.gameObject.GetComponentInParent<Wormhole>().wormholeExit.position;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -129,7 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b375c8c3952fd154ca8f3f4935f3a0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchPad: {fileID: 0}
+  launchPad: {fileID: 3292533261219735926, guid: 39aa3299af64d1b42af216dd206cc7a3, type: 3}
+  rocketTrail: {fileID: 6755952269908075472, guid: 111fd4be1a5c7334689035c9f4aa98eb, type: 3}
 --- !u!70 &1043511812432931206
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -184,6 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882441586590930294}
   - component: {fileID: 4192633386100182159}
+  - component: {fileID: 261847666882078446}
   m_Layer: 0
   m_Name: SpaceStation
   m_TagString: SpaceStation
@@ -244,6 +245,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &261847666882078446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7586570935096295526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1820ea774f27d5a42a34767623583a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteTransform: {fileID: 7978251766067311312}
+  rotationSpeedDegPerSec: 15
 --- !u!1 &8202767767343459098
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,6 +33,15 @@ public class LaunchPad : MonoBehaviour
         
         _launchTimer -= Time.deltaTime;
         */
+
+        if (Input.GetKeyDown(KeyCode.Space) && _canLaunch)
+        {
+            Launch();
+        }
+        if (_canLaunch)
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
 
     public void Launch()

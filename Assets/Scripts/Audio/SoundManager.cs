@@ -18,8 +18,11 @@ public class SoundManager : MonoBehaviour
 
     public enum SFX
     {
-        EXAMPLE_1,
-        EXAMPLE_2
+        ROCKET_LAUNCH,
+        ROCKET_CRASH,
+        ROCKET_LAND,
+        
+        BUTTON_CLICK
     }
 
     private void Awake()

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2389230563908609427}
   - component: {fileID: 7231781131956251603}
-  - component: {fileID: 5777411870276586309}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -48,23 +47,8 @@ MonoBehaviour:
   soundObject: {fileID: 3886200610649829395, guid: 380a0b54b0193084e9c5dd4af15f9960, type: 3}
   audioClips:
   - soundName: 0
-    clip: {fileID: 8300000, guid: 3d5d6677c25b68447b6e246609ea77c1, type: 3}
+    clip: {fileID: 0}
   - soundName: 1
-    clip: {fileID: 8300000, guid: c11be7ef6ba0b1d49b2ec01c6998fd36, type: 3}
-  - soundName: 2
-    clip: {fileID: 8300000, guid: 94346c1b25da5a84bab75199bf80c72c, type: 3}
-  - soundName: 3
-    clip: {fileID: 8300000, guid: 199684fe94b000647bb1761ef4500cc7, type: 3}
+    clip: {fileID: 0}
   pitchModifier: 1
---- !u!114 &5777411870276586309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025775513403823426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1600df30746f9534984928b70d8c7f04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  maxDistance: 30

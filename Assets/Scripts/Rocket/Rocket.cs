@@ -11,8 +11,6 @@ public class Rocket : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SoundManager.Instance.PlaySound(SoundManager.SFX.ROCKET_LAUNCH, transform, 1f);
-        
         _rb2d = GetComponent<Rigidbody2D>();
         
         launchPad = GameObject.FindGameObjectWithTag("LaunchPad").GetComponent<LaunchPad>();
@@ -55,8 +53,6 @@ public class Rocket : MonoBehaviour
     {
         if (other.gameObject.CompareTag("SpaceStation"))
         {
-            SoundManager.Instance.PlaySound(SoundManager.SFX.ROCKET_LAND, transform, 1f);
-            
             Destroy(gameObject);
             launchPad._canLaunch = true;
             launchPad.launchButton.interactable = true;
@@ -74,8 +70,6 @@ public class Rocket : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstical"))
         {
-            SoundManager.Instance.PlaySound(SoundManager.SFX.ROCKET_CRASH, transform, 1f);
-            
             Destroy(gameObject);
             launchPad._canLaunch = true;
             launchPad.launchButton.interactable = true;
@@ -90,8 +84,6 @@ public class Rocket : MonoBehaviour
 
     private void SelfDestruct()
     {
-        SoundManager.Instance.PlaySound(SoundManager.SFX.ROCKET_CRASH, transform, 1f);
-        
         Destroy(gameObject);
         launchPad._canLaunch = true;
         launchPad.launchButton.interactable = true;

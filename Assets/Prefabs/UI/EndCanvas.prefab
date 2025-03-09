@@ -455,6 +455,7 @@ GameObject:
   - component: {fileID: 2458210747718761451}
   - component: {fileID: 1574751794251343372}
   - component: {fileID: 1232382057387192472}
+  - component: {fileID: 206414689315556743}
   m_Layer: 5
   m_Name: Exit Button
   m_TagString: Untagged
@@ -576,6 +577,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 206414689315556743}
+        m_TargetAssemblyTypeName: Click, Assembly-CSharp
+        m_MethodName: Sound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &206414689315556743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556673158125886333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae5a5419f0ae404a9e4089dafcfe102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &564526063145255053
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,6 +2408,7 @@ GameObject:
   - component: {fileID: 3540498606240882915}
   - component: {fileID: 1454885319608987351}
   - component: {fileID: 5385439570603330189}
+  - component: {fileID: 5152319313881951441}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -2504,6 +2530,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 206414689315556743}
+        m_TargetAssemblyTypeName: Click, Assembly-CSharp
+        m_MethodName: Sound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2674534455372005190}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2516,6 +2554,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5152319313881951441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748422304319964643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae5a5419f0ae404a9e4089dafcfe102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3885802523011246294
 GameObject:
   m_ObjectHideFlags: 0
